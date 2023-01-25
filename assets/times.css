@@ -6,6 +6,10 @@ main {
   flex-direction: column;
   align-items: center;
 }
+body {
+  height: 90vh;
+  justify-content: center;
+}
 #timer {
   font-weight: 600;
   font-size: 10em;
