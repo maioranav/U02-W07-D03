@@ -1,68 +1,70 @@
-[
-  {
-    "name": "Vincenzo",
-    "surname": "Maiorana",
-    "age": 29,
-    "address": {
-      "city": "Milazzo",
-      "zipCode": 98057,
-      "region": "ME"
+{
+  "users": [
+    {
+      "name": "Vincenzo",
+      "surname": "Maiorana",
+      "age": 29,
+      "address": {
+        "city": "Milazzo",
+        "zipCode": 98057,
+        "region": "ME"
+      },
+      "hobbies": ["sport", "music", "politics"],
+      "enabledCourses": {
+        "frontend": true,
+        "backend": true,
+        "fullstack": true
+      },
+      "grants": {
+        "admin": true,
+        "teacher": false,
+        "student": true,
+        "guest": false
+      }
     },
-    "hobbies": ["sport", "music", "politics"],
-    "enabledCourses": {
-      "frontend": true,
-      "backend": true,
-      "fullstack": true
+    {
+      "name": "Giovanni",
+      "surname": "Muciaccia",
+      "age": 53,
+      "address": {
+        "city": "Foggia",
+        "zipCode": 71121,
+        "region": "FG"
+      },
+      "hobbies": ["theatre", "music", "tvshows"],
+      "enabledCourses": {
+        "frontend": true,
+        "backend": false,
+        "fullstack": false
+      },
+      "grants": {
+        "admin": false,
+        "teacher": false,
+        "student": false,
+        "guest": true
+      }
     },
-    "grants": {
-      "admin": true,
-      "teacher": false,
-      "student": true,
-      "guest": false
+    {
+      "name": "Alfonso",
+      "surname": "Cataglioto",
+      "age": 29,
+      "address": {
+        "city": "Aci Castello",
+        "zipCode": 95021,
+        "region": "CT"
+      },
+      "hobbies": ["jokes", "cars"],
+      "enabledCourses": {
+        "frontend": false,
+        "backend": true,
+        "fullstack": false
+      },
+      "grants": {
+        "admin": false,
+        "teacher": true,
+        "student": false,
+        "guest": false
+      }
     }
-  },
-  {
-    "name": "Giovanni",
-    "surname": "Muciaccia",
-    "age": 53,
-    "address": {
-      "city": "Foggia",
-      "zipCode": 71121,
-      "region": "FG"
-    },
-    "hobbies": ["theatre", "music", "tvshows"],
-    "enabledCourses": {
-      "frontend": true,
-      "backend": false,
-      "fullstack": false
-    },
-    "grants": {
-      "admin": false,
-      "teacher": false,
-      "student": false,
-      "guest": true
-    }
-  },
-  {
-    "name": "Alfonso",
-    "surname": "Cataglioto",
-    "age": 29,
-    "address": {
-      "city": "Aci Castello",
-      "zipCode": 95021,
-      "region": "CT"
-    },
-    "hobbies": ["jokes", "cars"],
-    "enabledCourses": {
-      "frontend": false,
-      "backend": true,
-      "fullstack": false
-    },
-    "grants": {
-      "admin": false,
-      "teacher": true,
-      "student": false,
-      "guest": false
-    }
-  }
-]
+  ]
+}
